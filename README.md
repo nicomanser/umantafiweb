@@ -1,7 +1,7 @@
 <h1 align="center">Hola 👋, Soy NICOLAS MANSERVIGI</h1>
 <h3 align="center">Un artista de Argentina. Cantante, escritor, desarrollador web y un apasionado de los libros.</h3>
 
-- 🔭 Estoy trabajando en [UMAN TAFÍ](https://github.com/nicomanser/umantafiweb.git)
+- 🔭 Estoy trabajando en [UMAN TAFÍ](https://nicomanser.github.io/umantafiweb/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
