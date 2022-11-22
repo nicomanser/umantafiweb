@@ -25,17 +25,17 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     padding: 15px;
     background-color: white;
     position: sticky;
     top: 0;
 }
 
-header img {
+.iconos-redes img {
     width: 20px;
     height: 20px;
     margin: 5px;
+    align-items: center;
 }
 
 .contenedor-menu {
@@ -50,6 +50,7 @@ header a h1 {
     font-size: 25px;
     margin-left: 30px;
     text-align: center;
+    align-items: center;
 }
 
 header nav ul {
@@ -119,12 +120,15 @@ header nav ul li:hover {
     background-color: #cdb363;
 }
 
-.eventos-y-otros {
-    transition: 15s;
+.eventos-y-otros div {
+    transition: 2s;
 }
 
-.eventos-y-otros img :hover{
-    transform: translateY(400px);
+.eventos-y-otros div:hover{
+    transform: scale(1.1);
+    box-shadow: -5px 10px 40px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -5px 10px 40px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 10px 40px -4px rgba(0,0,0,0.75);
 }
 
 
@@ -302,9 +306,22 @@ footer p {
     background-attachment: fixed
 }
 
-.ubicacion iframe {
+/*.ubicacion iframe {
     width: 100%;
     justify-content: center;
+}*/
+
+.formato-titulos-contacto p{
+    text-align: center;
+    align-items: center;
+    color: gray;
+    font-size: 18px;
+}
+
+.formato-titulos-contacto h2{
+    text-align: center;
+    align-items: center;
+    padding: 20px;
 }
 
 /*-------------------PAGINA VISITAS GUIADAS------------------*/
@@ -364,12 +381,20 @@ footer p {
     }
 }
 
+@media screen and (max-width: 1060px) {
+    .contenedor-visitas-guiadas{
+        grid-template-rows: 350px 350px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 
 @media screen and (max-width: 707px) {
     .grid-contenedor {
         grid-template-rows: 350px 350px;
         /**DECLARO COLUMNAS con short code**/
         grid-template-columns: repeat(1, 1fr);
+        align-items: center;
     }
 }
 
@@ -377,6 +402,13 @@ footer p {
     .contenedor-experiencias {
         grid-template-rows: 350px 350px;
         /**DECLARO COLUMNAS con short code**/
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 707px) {
+    .contenedor-visitas-guiadas{
+        grid-template-rows: 350px 350px;
         grid-template-columns: repeat(1, 1fr);
     }
 }
