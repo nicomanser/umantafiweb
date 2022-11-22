@@ -124,11 +124,11 @@ header nav ul li:hover {
     transition: 2s;
 }
 
-.eventos-y-otros div:hover{
+.eventos-y-otros div:hover {
     transform: scale(1.1);
-    box-shadow: -5px 10px 40px -4px rgba(0,0,0,0.75);
--webkit-box-shadow: -5px 10px 40px -4px rgba(0,0,0,0.75);
--moz-box-shadow: -5px 10px 40px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 10px 40px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -5px 10px 40px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px 10px 40px -4px rgba(0, 0, 0, 0.75);
 }
 
 
@@ -311,14 +311,14 @@ footer p {
     justify-content: center;
 }*/
 
-.formato-titulos-contacto p{
+.formato-titulos-contacto p {
     text-align: center;
     align-items: center;
     color: gray;
     font-size: 18px;
 }
 
-.formato-titulos-contacto h2{
+.formato-titulos-contacto h2 {
     text-align: center;
     align-items: center;
     padding: 20px;
@@ -382,7 +382,7 @@ footer p {
 }
 
 @media screen and (max-width: 1060px) {
-    .contenedor-visitas-guiadas{
+    .contenedor-visitas-guiadas {
         grid-template-rows: 350px 350px;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -407,7 +407,7 @@ footer p {
 }
 
 @media screen and (max-width: 707px) {
-    .contenedor-visitas-guiadas{
+    .contenedor-visitas-guiadas {
         grid-template-rows: 350px 350px;
         grid-template-columns: repeat(1, 1fr);
     }
