@@ -100,7 +100,7 @@ header nav ul li:hover {
 
 .eventos-y-otros {
     margin-top: 40px;
-    padding: 60px;
+    padding: 75px;
 }
 
 
@@ -163,7 +163,7 @@ header nav ul li:hover {
 
 
 .ubicacion {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .ubicacion iframe {
@@ -178,7 +178,7 @@ header nav ul li:hover {
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
     background-color: rgb(255, 255, 255);
 }
