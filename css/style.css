@@ -19,7 +19,7 @@ a {
     color: black;
 }
 
-/*------------------HEADER INDEX------------------*/
+/*----------------------------------HEADER INDEX-----------------------------*/
 
 header {
     display: flex;
@@ -70,7 +70,7 @@ header nav ul li:hover {
     background-color: #cdb363;
 }
 
-/*-------------------MAIN INDEX--------------------*/
+/*-------------------------------MAIN INDEX--------------------------------*/
 
 .contenedor-imagen {
     width: 100%;
@@ -82,11 +82,16 @@ header nav ul li:hover {
     background-attachment: fixed;
 }
 
+.formato-titulos-parrafos h1{
+    font-size: 22px;
+}
+
 .formato-titulos-parrafos h2 {
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 200;
 }
+
 
 .formato-titulos-parrafos p {
     color: grey;
@@ -173,7 +178,7 @@ header nav ul li:hover {
 
 
 
-/*-------------------FOOTER INDEX------------------*/
+/*---------------------------------FOOTER INDEX------------------------------*/
 
 footer {
     display: flex;
@@ -195,7 +200,7 @@ footer p {
 }
 
 
-/*-------------------PAGINA EXPERIENCIAS------------------*/
+/*-------------------------------PAGINA EXPERIENCIAS--------------------------*/
 
 .fondo-experiencias {
     width: 100%;
@@ -226,9 +231,7 @@ footer p {
     object-fit: cover;
 }
 
-
-
-/*-------------------PAGINA HOSPEDAJE------------------*/
+/*-----------------------------------PAGINA HOSPEDAJE--------------------------*/
 
 .fondo-hospedaje {
     width: 100%;
@@ -268,7 +271,7 @@ footer p {
 
 
 
-/*-------------------PAGINA NOSOTROS------------------*/
+/*--------------------------------PAGINA NOSOTROS----------------------------*/
 
 .fondo-nosotros {
     width: 100%;
@@ -282,7 +285,7 @@ footer p {
 
 
 
-/*-------------------PAGINA CAFETERIA------------------*/
+/*------------------------------PAGINA CAFETERIA-----------------------------*/
 
 .fondo-cafeteria {
     width: 100%;
@@ -294,7 +297,7 @@ footer p {
     background-attachment: fixed;
 }
 
-/*-------------------PAGINA CONTACTO------------------*/
+/*-------------------------------PAGINA CONTACTO-----------------------------*/
 
 .fondo-contacto {
     width: 100%;
@@ -324,7 +327,15 @@ footer p {
     padding: 20px;
 }
 
-/*-------------------PAGINA VISITAS GUIADAS------------------*/
+.formato-titulos-contacto{
+    transition: 1s;
+}
+
+.formato-titulos-contacto a:hover{
+    background-color: #cdb363;
+}
+
+/*-------------------------------PAGINA VISITAS GUIADAS-------------------------*/
 
 .fondo-visitas-guiadas {
     width: 100%;
@@ -336,6 +347,11 @@ footer p {
     background-attachment: fixed;
 }
 
+.formato-titulos-parrafos h3{
+    font-size: 15px;
+    color:black;
+    font-weight: 100;
+}
 
 .contenedor-visitas-guiadas {
     /**HABILITO LA GRILLA CON LO SIGUIENTE**/
@@ -357,7 +373,7 @@ footer p {
 }
 
 
-/*-------------------MEDIA QUERYS------------------*/
+/*-----------------------------------MEDIA QUERYS------------------------------*/
 /**@media screen and (max-width: 1380px){
     .eventos-y-otros{
         flex-direction: column;
