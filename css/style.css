@@ -58,16 +58,22 @@ header nav ul {
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
+    margin-bottom: 0;
 }
 
 header nav ul li {
     list-style: none;
     margin: 12px;
-    transition: 1seg;
+    display: flex;
 }
 
-header nav ul li:hover {
+header nav ul li a{
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
     background-color: #cdb363;
+    color: black;
 }
 
 /*-------------------------------MAIN INDEX--------------------------------*/
@@ -116,9 +122,6 @@ header nav ul li:hover {
     text-align: center;
     box-sizing: border-box;
     transition: 1s;
-    /* box-shadow: 5px 5px 18px -6px rgba(0,0,0,1);
-    -webkit-box-shadow: 5px 5px 18px -6px rgba(0,0,0,1);
-    -moz-box-shadow: 5px 5px 18px -6px rgba(0,0,0,1); */
 }
 
 .eventos-y-otros a:hover {
@@ -309,11 +312,6 @@ footer p {
     background-attachment: fixed
 }
 
-/*.ubicacion iframe {
-    width: 100%;
-    justify-content: center;
-}*/
-
 .formato-titulos-contacto p {
     text-align: center;
     align-items: center;
@@ -374,12 +372,6 @@ footer p {
 
 
 /*-----------------------------------MEDIA QUERYS------------------------------*/
-/**@media screen and (max-width: 1380px){
-    .eventos-y-otros{
-        flex-direction: column;
-        align-items: center;
-    }
-}**/
 
 @media screen and (max-width: 1060px) {
     .grid-contenedor {
