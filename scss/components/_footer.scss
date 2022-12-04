@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    p{
+        font-size: 13px;
+        text-align: center;
+        flex-grow: 1;
+    }
+}

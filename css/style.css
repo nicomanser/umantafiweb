@@ -44,6 +44,12 @@ header {
     align-items: center;
 }
 
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+
 header a h1 {
     text-decoration: none;
     color: black;
@@ -68,6 +74,8 @@ header nav ul li {
 }
 
 header nav ul li a{
+    text-decoration: none;
+    color: black;
     transition: 0.3s;
 }
 
@@ -192,11 +200,6 @@ footer {
     padding: 10px;
     margin: 10px;
     background-color: rgb(255, 255, 255);
-}
-
-footer a img {
-    width: 30px;
-    height: 30px;
 }
 
 footer p {
