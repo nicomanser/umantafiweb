@@ -79,6 +79,55 @@ header nav ul {
   font-size: 18px;
   text-align: justify; }
 
+/*TARJETAS-INDEX*/
+.eventos-y-otros {
+  margin-top: 40px;
+  padding: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  gap: 15px; }
+  .eventos-y-otros div {
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.3s; }
+    .eventos-y-otros div:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+      background-color: #cdb363; }
+    .eventos-y-otros div img {
+      transition: 0.3s; }
+      .eventos-y-otros div img:hover {
+        filter: saturate(0%); }
+    .eventos-y-otros div h2 {
+      font-size: 20px;
+      color: black;
+      text-transform: uppercase; }
+    .eventos-y-otros div h3 {
+      font-size: 14px;
+      color: black;
+      padding: 5px; }
+    .eventos-y-otros div a {
+      text-decoration: none;
+      color: #877138;
+      background-color: white;
+      padding: 1px;
+      font-size: 13px;
+      text-transform: uppercase; }
+      .eventos-y-otros div a:hover {
+        background-color: #cdb363; }
+
+/*IFRAME-MAPA-INDEX-MAIN*/
+.ubicacion {
+  margin-top: 80px; }
+  .ubicacion .ubicacion iframe {
+    width: 100%;
+    justify-content: center; }
+
 /*NOSOTROS*/
 /*HOSPEDAJE*/
 /*EXPERIENCIAS*/

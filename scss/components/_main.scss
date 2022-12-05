@@ -24,6 +24,68 @@
     }
 }
 
+/*TARJETAS-INDEX*/
+
+.eventos-y-otros{
+    margin-top: 40px;
+    padding: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    gap: 15px;
+    div{
+        width: 250px;
+        height: 350px;
+        border: 1px solid black;
+        text-align: center;
+        box-sizing: border-box;
+        transition: 0.3s;
+        &:hover{
+            transform: scale(1.05);
+            opacity: 0.9;
+            background-color: #cdb363;
+        }
+        img{
+            transition: 0.3s;
+            &:hover{
+            filter: saturate(0%);
+            }
+        }
+        h2{
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: 14px;
+            color: rgb(0, 0, 0);
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(135, 113, 56);
+            background-color: rgb(255, 255, 255);
+            padding: 1px;
+            font-size: 13px;
+            text-transform: uppercase;
+            &:hover{
+            background-color: #cdb363;
+            }
+        }
+    }
+}
+
+/*IFRAME-MAPA-INDEX-MAIN*/
+
+.ubicacion{
+    margin-top: 80px;
+    .ubicacion iframe{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
 /*NOSOTROS*/
 
 
