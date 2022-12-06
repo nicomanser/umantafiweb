@@ -1,3 +1,4 @@
+/*GENERALES*/
 @import url("https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600&display=swap");
 * {
   margin: 0;
@@ -22,6 +23,11 @@ a {
   font-size: 20px;
   font-weight: 200; }
 
+.formato-titulos-parrafos h3 {
+  font-size: 15px;
+  color: black;
+  font-weight: 100; }
+
 .formato-titulos-parrafos p {
   color: grey;
   font-size: 18px;
@@ -30,6 +36,11 @@ a {
 .formato-titulos-parrafos {
   padding: 60px 60px 0 60px; }
 
+/*-----VARIABLES-----*/
+/*PALETA DE COLORES UMAN TAFI 2022*/
+/*HEADER*/
+/*-----VARIABLES-----*/
+/*PALETA DE COLORES UMAN TAFI 2022*/
 header a {
   text-decoration: none;
   color: black; }
@@ -41,25 +52,38 @@ header a {
     text-align: center;
     align-items: center; }
 
-header nav ul {
+header div .contenedor-menu nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
   margin-bottom: 0; }
-  header nav ul li {
+  header div .contenedor-menu nav ul li {
     list-style: none;
     margin: 12px;
     display: flex; }
-    header nav ul li a {
+    header div .contenedor-menu nav ul li a {
       text-decoration: none;
       color: black;
       transition: 0.3s; }
-      header nav ul li a:hover {
+      header div .contenedor-menu nav ul li a:hover {
         background-color: #cdb363;
         color: black; }
 
+/*HEADER ICONOS SOCIALES*/
+.contenedor-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .contenedor-menu div .iconos-redes img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    align-items: center; }
+
 /*INDEX-MAIN*/
+/*-----VARIABLES-----*/
+/*PALETA DE COLORES UMAN TAFI 2022*/
 .contenedor-imagen {
   width: 100%;
   height: 95vh;
@@ -68,16 +92,6 @@ header nav ul {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
-
-.formato-titulos-parrafos h2 {
-  color: black;
-  font-size: 20px;
-  font-weight: 200; }
-
-.formato-titulos-parrafos p {
-  color: grey;
-  font-size: 18px;
-  text-align: justify; }
 
 /*TARJETAS-INDEX*/
 .eventos-y-otros {
@@ -124,16 +138,129 @@ header nav ul {
 /*IFRAME-MAPA-INDEX-MAIN*/
 .ubicacion {
   margin-top: 80px; }
-  .ubicacion .ubicacion iframe {
+  .ubicacion iframe {
     width: 100%;
     justify-content: center; }
 
 /*NOSOTROS*/
+.fondo-nosotros {
+  width: 100%;
+  height: 95vh;
+  background-image: url(../img/fondonosotros.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
 /*HOSPEDAJE*/
+.fondo-hospedaje {
+  width: 100%;
+  height: 95vh;
+  background-image: url(../img/fondohospedaje.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.grid-contenedor {
+  display: grid;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px 60px 0 60px; }
+  .grid-contenedor div .galeria-hospedaje {
+    background-color: white;
+    font-size: 10px; }
+    .grid-contenedor div .galeria-hospedaje img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+
 /*EXPERIENCIAS*/
+.fondo-experiencias {
+  width: 100%;
+  height: 95vh;
+  background-image: url(../img/fondoeventos.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.contenedor-experiencias {
+  display: grid;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px 60px 0 60px; }
+  .contenedor-experiencias div .galeria-fotos-experiencias {
+    background-color: white;
+    font-size: 10px; }
+    .contenedor-experiencias div .galeria-fotos-experiencias img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+
 /*CAFETERIA*/
+.fondo-cafeteria {
+  width: 100%;
+  height: 95vh;
+  background-image: url(../img/fondocafeteria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
 /*VISITAS GUIADAS*/
+.fondo-visitas-guiadas {
+  width: 100%;
+  height: 95vh;
+  background-image: url(../img/fondovisitasguiadas.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.contenedor-visitas-guiadas {
+  display: grid;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px 60px 0 60px; }
+  .contenedor-visitas-guiadas div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
 /*CONTACTO*/
+.fondo-contacto {
+  width: 100%;
+  height: 95vh;
+  background-image: url(../img/fondocontacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.formato-titulos-contacto {
+  transition: 1s; }
+  .formato-titulos-contacto div h2 {
+    text-align: center;
+    align-items: center;
+    padding: 20px; }
+  .formato-titulos-contacto div p {
+    text-align: center;
+    align-items: center;
+    color: grey;
+    font-size: 18px; }
+  .formato-titulos-contacto div a:hover {
+    background-color: #cdb363; }
+
+/*FOOTER*/
+/*-----VARIABLES-----*/
+/*PALETA DE COLORES UMAN TAFI 2022*/
 footer {
   display: flex;
   justify-content: space-between;
@@ -143,4 +270,80 @@ footer {
   footer p {
     font-size: 13px;
     text-align: center;
+    color: grey;
     flex-grow: 1; }
+
+/*MEDIA-QUERYS*/
+@media screen and (max-width: 1060px) {
+  .grid-contenedor {
+    grid-template-rows: 350px 350px;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 1060px) {
+  .contenedor-experiencias {
+    grid-template-rows: 350px 350px;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 1060px) {
+  .contenedor-visitas-guiadas {
+    grid-template-rows: 350px 350px;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 707px) {
+  .grid-contenedor {
+    grid-template-rows: 350px 350px;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center; } }
+
+@media screen and (max-width: 707px) {
+  .contenedor-experiencias {
+    grid-template-rows: 350px 350px;
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media screen and (max-width: 707px) {
+  .contenedor-visitas-guiadas {
+    grid-template-rows: 350px 350px;
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media screen and (max-width: 707px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    background-color: white; }
+  .contenedor-menu {
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 707px) {
+  .eventos-y-otros div {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; }
+  .contenedor-menu {
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 667px) {
+  .eventos-y-otros {
+    flex-direction: column;
+    align-items: center;
+    margin: 5px; }
+  .contenedor-menu {
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 495px) {
+  header img {
+    display: none; }
+  header nav ul li {
+    font-size: 12px; } }
+
+@media screen and (max-width: 380px) {
+  header nav ul li {
+    font-size: 10px; } }
+
+@media screen and (max-width: 380px) {
+  .formato-titulos-parrafos p {
+    font-size: 12px; }
+  .formato-titulos-parrafos h2 {
+    font-size: 12px; } }

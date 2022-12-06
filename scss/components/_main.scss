@@ -1,5 +1,6 @@
 
 /*INDEX-MAIN*/
+@import "../base/variables";
 
 .contenedor-imagen{
     width: 100%;
@@ -9,19 +10,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
-
-.formato-titulos-parrafos{
-    h2{
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-        font-weight: 200;
-    }
-    p{
-        color: grey;
-        font-size: 18px;
-        text-align: justify;
-    }
 }
 
 /*TARJETAS-INDEX*/
@@ -54,12 +42,12 @@
         }
         h2{
             font-size: 20px;
-            color: rgb(0, 0, 0);
+            color: $color-titulos-h;
             text-transform: uppercase;
         }
         h3{
             font-size: 14px;
-            color: rgb(0, 0, 0);
+            color: $color-titulos-h;
             padding: 5px;
         }
         a{
@@ -70,7 +58,7 @@
             font-size: 13px;
             text-transform: uppercase;
             &:hover{
-            background-color: #cdb363;
+            background-color: $color-efecto-links;
             }
         }
     }
@@ -80,7 +68,7 @@
 
 .ubicacion{
     margin-top: 80px;
-    .ubicacion iframe{
+    iframe{
         width: 100%;
         justify-content: center;
     }
@@ -88,35 +76,157 @@
 
 /*NOSOTROS*/
 
-
-
-
+.fondo-nosotros{
+    width: 100%;
+    height: 95vh;
+    background-image: url(../img/fondonosotros.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
 
 /*HOSPEDAJE*/
 
+.fondo-hospedaje{
+    width: 100%;
+    height: 95vh;
+    background-image: url(../img/fondohospedaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
-
+.grid-contenedor{
+    display: grid;
+    grid-template-rows: 350px 350px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px 60px 0 60px;
+    div{
+        .galeria-hospedaje{
+            background-color: rgb(255, 255, 255);
+            font-size: 10px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
 
 
 /*EXPERIENCIAS*/
 
+.fondo-experiencias{
+    width: 100%;
+    height: 95vh;
+    background-image: url(../img/fondoeventos.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
-
-
+.contenedor-experiencias{
+        display: grid;
+        grid-template-rows: 350px 350px 350px;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        padding: 20px 60px 0 60px;
+    div{
+        .galeria-fotos-experiencias{
+            background-color: $color-fondo;
+            font-size: 10px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
 
 /*CAFETERIA*/
 
-
-
+.fondo-cafeteria{
+    width: 100%;
+    height: 95vh;
+    background-image: url(../img/fondocafeteria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 
 /*VISITAS GUIADAS*/
 
+.fondo-visitas-guiadas{
+    width: 100%;
+    height: 95vh;
+    background-image: url(../img/fondovisitasguiadas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
-
+.contenedor-visitas-guiadas{
+        display: grid;
+        grid-template-rows: 350px 350px;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        padding: 20px 60px 0 60px;
+    div{
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
 
 
 /*CONTACTO*/
+
+.fondo-contacto {
+    width: 100%;
+    height: 95vh;
+    background-image: url(../img/fondocontacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
+
+.formato-titulos-contacto{
+    transition: 1s;
+    div{
+        h2{
+            text-align: center;
+            align-items: center;
+            padding: 20px;
+        }
+        p{
+            text-align: center;
+            align-items: center;
+            color: $color-parrafos;
+            font-size: 18px;
+        }
+        a{
+            &:hover{
+                background-color: $color-efecto-links;
+            }
+
+        }
+    }
+}
 
 
 

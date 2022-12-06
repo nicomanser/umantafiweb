@@ -1,0 +1,110 @@
+/*MEDIA-QUERYS*/
+
+@media screen and (max-width: 1060px) {
+    .grid-contenedor {
+        grid-template-rows: 350px 350px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .contenedor-experiencias {
+        grid-template-rows: 350px 350px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .contenedor-visitas-guiadas {
+        grid-template-rows: 350px 350px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 707px) {
+    .grid-contenedor {
+        grid-template-rows: 350px 350px;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 707px) {
+    .contenedor-experiencias {
+        grid-template-rows: 350px 350px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 707px) {
+    .contenedor-visitas-guiadas {
+        grid-template-rows: 350px 350px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 707px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+
+    .contenedor-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 707px) {
+    .eventos-y-otros div {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .contenedor-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .eventos-y-otros {
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .contenedor-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    header img {
+        display: none;
+    }
+
+    header nav ul li {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    header nav ul li {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .formato-titulos-parrafos p {
+        font-size: 12px;
+    }
+
+    .formato-titulos-parrafos h2 {
+        font-size: 12px;
+    }
+}

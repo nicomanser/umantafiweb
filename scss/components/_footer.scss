@@ -1,3 +1,6 @@
+/*FOOTER*/
+@import "../base/variables";
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -7,6 +10,7 @@ footer{
     p{
         font-size: 13px;
         text-align: center;
+        color: $color-parrafos;
         flex-grow: 1;
     }
 }

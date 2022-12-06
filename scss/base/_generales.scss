@@ -1,3 +1,4 @@
+/*GENERALES*/
 @import url('https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600&display=swap');
 
 * {
@@ -29,6 +30,11 @@ a {
     font-weight: 200;
 }
 
+.formato-titulos-parrafos h3{
+    font-size: 15px;
+    color:black;
+    font-weight: 100;
+}
 
 .formato-titulos-parrafos p {
     color: grey;
