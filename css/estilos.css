@@ -38,45 +38,60 @@ a {
 
 /*-----VARIABLES-----*/
 /*HEADER*/
-header a {
-  text-decoration: none;
-  color: black; }
-  header a h1 {
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: white;
+  position: sticky;
+  top: 0; }
+  header a {
     text-decoration: none;
     color: black;
-    font-size: 25px;
-    margin-left: 30px;
-    text-align: center;
+    display: flex;
     align-items: center; }
-
-header div .contenedor-menu nav ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style: none;
-  margin-bottom: 0; }
-  header div .contenedor-menu nav ul li {
-    list-style: none;
-    margin: 12px;
-    display: flex; }
-    header div .contenedor-menu nav ul li a {
+    header a h1 {
       text-decoration: none;
       color: black;
-      transition: 0.3s; }
-      header div .contenedor-menu nav ul li a:hover {
-        background-color: #cdb363;
-        color: black; }
+      font-size: 25px;
+      margin-bottom: 0;
+      text-align: center;
+      align-items: center; }
+  header .contenedor-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .contenedor-menu nav ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      list-style: none;
+      margin-bottom: 0; }
+      header .contenedor-menu nav ul li {
+        list-style: none;
+        margin: 12px;
+        display: flex; }
+        header .contenedor-menu nav ul li a {
+          text-decoration: none;
+          color: black;
+          transition: 0.3s; }
+          header .contenedor-menu nav ul li a:hover {
+            background-color: #cdb363;
+            color: black; }
 
 /*HEADER ICONOS SOCIALES*/
 .contenedor-menu {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .contenedor-menu div .iconos-redes img {
-    width: 20px;
-    height: 20px;
-    margin: 5px;
-    align-items: center; }
+  .contenedor-menu .iconos-redes {
+    display: flex; }
+    .contenedor-menu .iconos-redes img {
+      width: 20px;
+      height: 20px;
+      margin: 5px;
+      align-items: center; }
 
 /*INDEX-MAIN*/
 .contenedor-imagen {
