@@ -37,10 +37,7 @@ a {
   padding: 60px 60px 0 60px; }
 
 /*-----VARIABLES-----*/
-/*PALETA DE COLORES UMAN TAFI 2022*/
 /*HEADER*/
-/*-----VARIABLES-----*/
-/*PALETA DE COLORES UMAN TAFI 2022*/
 header a {
   text-decoration: none;
   color: black; }
@@ -82,8 +79,6 @@ header div .contenedor-menu nav ul {
     align-items: center; }
 
 /*INDEX-MAIN*/
-/*-----VARIABLES-----*/
-/*PALETA DE COLORES UMAN TAFI 2022*/
 .contenedor-imagen {
   width: 100%;
   height: 95vh;
@@ -259,8 +254,6 @@ header div .contenedor-menu nav ul {
     background-color: #cdb363; }
 
 /*FOOTER*/
-/*-----VARIABLES-----*/
-/*PALETA DE COLORES UMAN TAFI 2022*/
 footer {
   display: flex;
   justify-content: space-between;
