@@ -84,12 +84,18 @@
 }
 
 @media screen and (max-width: 495px) {
+    header{
+        padding: 15px 10px;
+    }
     header img {
         display: none;
     }
-
-    header nav ul li {
+    header nav ul{
+        padding: 0;
+    }
+    header .contenedor-menu nav ul li {
         font-size: 12px;
+        margin: 4px;
     }
 }
 

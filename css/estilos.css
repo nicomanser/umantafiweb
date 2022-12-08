@@ -42,7 +42,8 @@ header {
   padding: 15px;
   background-color: white;
   position: sticky;
-  top: 0; }
+  top: 0;
+  z-index: 2; }
   header a {
     text-decoration: none;
     color: black;
@@ -62,6 +63,9 @@ header {
     header .contenedor-menu nav ul {
       display: flex;
       flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-left: 0;
       flex-wrap: wrap;
       list-style: none;
       margin-bottom: 0; }
@@ -124,7 +128,8 @@ header {
     .eventos-y-otros div h2 {
       font-size: 20px;
       color: black;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      padding-top: 8px; }
     .eventos-y-otros div h3 {
       font-size: 14px;
       color: black;
@@ -170,10 +175,10 @@ header {
   column-gap: 10px;
   row-gap: 10px;
   padding: 20px 60px 0 60px; }
-  .grid-contenedor div .galeria-hospedaje {
+  .grid-contenedor .galeria-hospedaje {
     background-color: white;
     font-size: 10px; }
-    .grid-contenedor div .galeria-hospedaje img {
+    .grid-contenedor .galeria-hospedaje img {
       width: 100%;
       height: 100%;
       object-fit: cover; }
@@ -194,10 +199,10 @@ header {
   column-gap: 10px;
   row-gap: 10px;
   padding: 20px 60px 0 60px; }
-  .contenedor-experiencias div .galeria-fotos-experiencias {
+  .contenedor-experiencias .galeria-fotos-experiencias {
     background-color: white;
     font-size: 10px; }
-    .contenedor-experiencias div .galeria-fotos-experiencias img {
+    .contenedor-experiencias .galeria-fotos-experiencias img {
       width: 100%;
       height: 100%;
       object-fit: cover; }
@@ -326,10 +331,15 @@ footer {
     align-items: center; } }
 
 @media screen and (max-width: 495px) {
+  header {
+    padding: 15px 10px; }
   header img {
     display: none; }
-  header nav ul li {
-    font-size: 12px; } }
+  header nav ul {
+    padding: 0; }
+  header .contenedor-menu nav ul li {
+    font-size: 12px;
+    margin: 4px; } }
 
 @media screen and (max-width: 380px) {
   header nav ul li {
