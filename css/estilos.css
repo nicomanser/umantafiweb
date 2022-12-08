@@ -248,16 +248,16 @@ header {
 
 .formato-titulos-contacto {
   transition: 1s; }
-  .formato-titulos-contacto div h2 {
+  .formato-titulos-contacto h2 {
     text-align: center;
     align-items: center;
     padding: 20px; }
-  .formato-titulos-contacto div p {
+  .formato-titulos-contacto p {
     text-align: center;
     align-items: center;
     color: grey;
     font-size: 18px; }
-  .formato-titulos-contacto div a:hover {
+  .formato-titulos-contacto a:hover {
     background-color: #cdb363; }
 
 footer {
