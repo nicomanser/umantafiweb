@@ -1,4 +1,3 @@
-/*GENERALES*/
 @import url("https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600&display=swap");
 * {
   margin: 0;
@@ -36,8 +35,6 @@ a {
 .formato-titulos-parrafos {
   padding: 60px 60px 0 60px; }
 
-/*-----VARIABLES-----*/
-/*HEADER*/
 header {
   display: flex;
   flex-wrap: wrap;
@@ -80,7 +77,6 @@ header {
             background-color: #cdb363;
             color: black; }
 
-/*HEADER ICONOS SOCIALES*/
 .contenedor-menu {
   display: flex;
   justify-content: space-between;
@@ -93,7 +89,6 @@ header {
       margin: 5px;
       align-items: center; }
 
-/*INDEX-MAIN*/
 .contenedor-imagen {
   width: 100%;
   height: 95vh;
@@ -103,7 +98,6 @@ header {
   background-position: center;
   background-attachment: fixed; }
 
-/*TARJETAS-INDEX*/
 .eventos-y-otros {
   margin-top: 40px;
   padding: 75px;
@@ -145,14 +139,12 @@ header {
       .eventos-y-otros div a:hover {
         background-color: #cdb363; }
 
-/*IFRAME-MAPA-INDEX-MAIN*/
 .ubicacion {
   margin-top: 80px; }
   .ubicacion iframe {
     width: 100%;
     justify-content: center; }
 
-/*NOSOTROS*/
 .fondo-nosotros {
   width: 100%;
   height: 95vh;
@@ -162,7 +154,6 @@ header {
   background-position: center;
   background-attachment: fixed; }
 
-/*HOSPEDAJE*/
 .fondo-hospedaje {
   width: 100%;
   height: 95vh;
@@ -187,7 +178,6 @@ header {
       height: 100%;
       object-fit: cover; }
 
-/*EXPERIENCIAS*/
 .fondo-experiencias {
   width: 100%;
   height: 95vh;
@@ -212,7 +202,6 @@ header {
       height: 100%;
       object-fit: cover; }
 
-/*CAFETERIA*/
 .fondo-cafeteria {
   width: 100%;
   height: 95vh;
@@ -222,7 +211,6 @@ header {
   background-position: center;
   background-attachment: fixed; }
 
-/*VISITAS GUIADAS*/
 .fondo-visitas-guiadas {
   width: 100%;
   height: 95vh;
@@ -244,7 +232,6 @@ header {
     height: 100%;
     object-fit: cover; }
 
-/*CONTACTO*/
 .fondo-contacto {
   width: 100%;
   height: 95vh;
@@ -268,7 +255,6 @@ header {
   .formato-titulos-contacto div a:hover {
     background-color: #cdb363; }
 
-/*FOOTER*/
 footer {
   display: flex;
   justify-content: space-between;
@@ -281,7 +267,6 @@ footer {
     color: grey;
     flex-grow: 1; }
 
-/*MEDIA-QUERYS*/
 @media screen and (max-width: 1060px) {
   .grid-contenedor {
     grid-template-rows: 350px 350px;

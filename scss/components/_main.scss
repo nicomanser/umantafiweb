@@ -1,5 +1,5 @@
 
-/*INDEX-MAIN*/
+//! INDEX MAIN
 
 .contenedor-imagen{
     width: 100%;
@@ -11,7 +11,7 @@
     background-attachment: fixed;
 }
 
-/*TARJETAS-INDEX*/
+//! TARJETAS DEL INDEX
 
 .eventos-y-otros{
     margin-top: 40px;
@@ -40,12 +40,12 @@
             }
         }
         h2{
-            font-size: 20px;
+            font-size: nth($font-size, 6);
             color: $color-titulos-h;
             text-transform: uppercase;
         }
         h3{
-            font-size: 14px;
+            font-size: nth($font-size, 3);
             color: $color-titulos-h;
             padding: 5px;
         }
@@ -63,7 +63,7 @@
     }
 }
 
-/*IFRAME-MAPA-INDEX-MAIN*/
+//! IFRAME DE MAPA INDEX
 
 .ubicacion{
     margin-top: 80px;
@@ -73,7 +73,7 @@
     }
 }
 
-/*NOSOTROS*/
+//! NOSOTROS
 
 .fondo-nosotros{
     width: 100%;
@@ -85,7 +85,7 @@
     background-attachment: fixed
 }
 
-/*HOSPEDAJE*/
+//! HOSPEDAJE
 
 .fondo-hospedaje{
     width: 100%;
@@ -118,7 +118,7 @@
 }
 
 
-/*EXPERIENCIAS*/
+//! EXPERIENCIAS
 
 .fondo-experiencias{
     width: 100%;
@@ -150,7 +150,7 @@
     }
 }
 
-/*CAFETERIA*/
+//! CAFETERIA
 
 .fondo-cafeteria{
     width: 100%;
@@ -163,7 +163,7 @@
 }
 
 
-/*VISITAS GUIADAS*/
+//! VISITAS GUIADAS
 
 .fondo-visitas-guiadas{
     width: 100%;
@@ -192,7 +192,7 @@
 }
 
 
-/*CONTACTO*/
+//! CONTACTO
 
 .fondo-contacto {
     width: 100%;
@@ -216,7 +216,7 @@
             text-align: center;
             align-items: center;
             color: $color-parrafos;
-            font-size: 18px;
+            font-size: nth($font-size, 5);
         }
         a{
             &:hover{
